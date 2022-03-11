@@ -13,7 +13,7 @@ function subtractTwoNumbers(x,y){
   let total = x-y;
   console.log(total);
   return total;
-}
+};
 
 subtractTwoNumbers(10,5);
 subtractTwoNumbers(3,4);
@@ -24,7 +24,7 @@ function greeting(userName) {
   const userGreeting = `Hello, ${userName}.`;
   console.log(userGreeting);
   return userGreeting;
-}
+};
 
 greeting(`James`);
 
@@ -49,7 +49,7 @@ function dimensions(l,w,h) {
   const volume = `The dimensions of the box are ${l*w*h} cubic meters`;
   console.log(volume);
   return volume;
-}
+};
 
 dimensions(1,2,3);
 
@@ -59,7 +59,7 @@ function volume (l,w,h) {
   let total = l*w*h;
   console.log (total);
   return total;
-}
+};
 
 
 console.log (`The dimensions of the box are ${volume(1,2,3)} cubic meters.`)
